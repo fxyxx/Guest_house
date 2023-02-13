@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+:root {
+  --brown: #52503b;
+  --light_beige: #faf8f0;
+  --text_white: #ffffff;
+  --text__black: #333333;
+}
+
+.nav__bar {
+  position: absolute;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--brown);
+}
+
+.nav__bar > img {
+  height: 45px;
+}
+
+.nav__menu {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 24px;
+}
+
+.nav__menu a {
+  color: var(--text_white);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  transition: 0.2s;
+}
+
+.nav__menu a:hover {
+  color: #b9b9b9;
+}
+
+.book__button {
+  height: 42px;
+  width: 117px;
+  background-color: var(--text_white);
+  border-radius: 6px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  transition: 0.2s;
+}
+
+.book__button a {
+  color: var(--brown);
+}
+
+.book__button:hover {
+  background-color: #b9b9b9;
+}
